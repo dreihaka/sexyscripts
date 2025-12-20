@@ -4,7 +4,7 @@ COMMIT_MESSAGE=$1
 
 if [ $# -eq 0 ]; then
     echo "Error: You need to pass one parameter."
-    echo "Usage: $0 <Commit message example>"
+    echo "Usage: $0 \"<Commit message example>"\"
     exit 1
 fi
 
